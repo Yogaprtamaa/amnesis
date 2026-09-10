@@ -40,12 +40,12 @@ $ amnesis status
 
 ## Features
 
-- 🧠 **Tool-agnostic memory** — one state file, injected into 5+ AI tools via their native conventions. No plugins, no APIs, just files on disk.
-- 🤖 **Hands-free updates** — a `post-commit` hook runs `wrapup` after every commit. No daemon, no watcher.
-- 🆓 **Free LLM paths** — OpenCode Zen (Big Pickle, unlimited), OpenRouter `:free` models, or fully-offline Ollama. Paid providers (Anthropic, OpenAI) also supported.
-- 🔒 **Secrets never leave your machine unredacted** — credentials, AWS keys, PEM blocks, and whole `.env`/`*.pem`/`*.key` files are stripped before any network call.
-- 🧾 **ADRs on autopilot** — significant architectural changes trigger Architecture Decision Records; manual ones via `amnesis adr`.
-- 🧹 **Self-maintaining** — session logs pruned by age, "Recent Changes" capped at 5, `.aimemory/` never summarizes itself.
+- **Tool-agnostic memory** — one state file, injected into 5+ AI tools via their native conventions. No plugins, no APIs, just files on disk.
+- **Hands-free updates** — a `post-commit` hook runs `wrapup` after every commit. No daemon, no watcher.
+- **Free LLM paths** — OpenCode Zen (Big Pickle, unlimited), OpenRouter `:free` models, or fully-offline Ollama. Paid providers (Anthropic, OpenAI) also supported.
+- **Secrets never leave your machine unredacted** — credentials, AWS keys, PEM blocks, and whole `.env`/`*.pem`/`*.key` files are stripped before any network call.
+- **ADRs on autopilot** — significant architectural changes trigger Architecture Decision Records; manual ones via `amnesis adr`.
+- **Self-maintaining** — session logs pruned by age, "Recent Changes" capped at 5, `.aimemory/` never summarizes itself.
 
 ## Requirements
 
