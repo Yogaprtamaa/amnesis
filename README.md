@@ -1,21 +1,12 @@
-<div align="center">
-
 # amnesis
 
 **Universal context memory for agentic AI coding tools.**
 
-Stop re-explaining your project every new chat.  
+Stop re-explaining your project every new chat.
 One living state file — read by every AI tool, updated on every commit.
 
-[![npm version](https://img.shields.io/npm/v/@ayogtama/amnesis?style=flat-square)](https://www.npmjs.com/package/@ayogtama/amnesis)
-[![npm downloads](https://img.shields.io/npm/dm/@ayogtama/amnesis?style=flat-square)](https://www.npmjs.com/package/@ayogtama/amnesis)
-[![node](https://img.shields.io/badge/node-%3E%3D18-green?style=flat-square)](https://nodejs.org/)
-[![license: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
-[![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](https://github.com/Yogaprtamaa/amnesis/pulls)
-
-Works with Claude Code · Cursor · OpenCode · Aider · Continue · Windsurf
-
-</div>
+> Works with Claude Code · Cursor · OpenCode · Aider · Continue · Windsurf
+> Requires Node.js ≥ 18 · License: MIT · PRs welcome
 
 ---
 
@@ -235,10 +226,7 @@ Tests use a mocked LLM and dummy secrets — no API keys, no network required. P
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT — see LICENSE.
 
 ---
-
-<div align="center">
 Built for developers who are tired of repeating themselves.
-</div>
