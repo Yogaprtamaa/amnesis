@@ -24,8 +24,8 @@ Every new session in any agentic coding tool starts with amnesia: architecture d
 ```console
 $ cd your-project
 $ amnesis init
-✓ Created: .aimemory/config.json, .aimemory/state.md, AGENTS.md
-✓ Updated: .gitignore, .git/hooks/post-commit
+Created: .aimemory/config.json, .aimemory/state.md, AGENTS.md
+Updated: .gitignore, .git/hooks/post-commit
 
 $ git commit -m "feat: switch session store to redis"
   → wrapup: state.md updated, session logged, ADR suggested
@@ -123,7 +123,7 @@ Only `wrapup` needs an LLM — everything else is local file I/O. Keys are **nev
 
 | Provider | Flag | Key | Cost |
 |---|---|---|---|
-| OpenCode Zen — Big Pickle ✅ | `--provider=opencode` | `OPENCODE_API_KEY` (free, unlimited — OpenCode dashboard → API Keys) | Free |
+| OpenCode Zen — Big Pickle (recommended) | `--provider=opencode` | `OPENCODE_API_KEY` (free, unlimited — OpenCode dashboard → API Keys) | Free |
 | OpenRouter free models | `--provider=openrouter` | `OPENROUTER_API_KEY` (free signup, no credit card) | Free |
 | Ollama (offline, private) | `--provider=ollama` | none | Free |
 | Anthropic (default) | `--provider=anthropic` | `ANTHROPIC_API_KEY` | Paid |
